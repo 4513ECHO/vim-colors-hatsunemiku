@@ -1,0 +1,18 @@
+color_foreground: 'black'
+color_background: 'white'
+color_0: 'black' # black
+color_1: 'red' # red
+color_2: 'green' # green
+color_3: 'beige' # yellow
+color_4: 'blue' # blue
+color_5: 'magenta' # magenta
+color_6: 'cyan' # cyan
+color_7: 'darkgray' # white
+color_8: 'gray'
+color_9: 'red'
+color_10: 'lightgreen'
+color_11: 'beige'
+color_12: 'lightblue'
+color_13: 'magenta'
+color_14: 'cyan'
+color_15: 'white'

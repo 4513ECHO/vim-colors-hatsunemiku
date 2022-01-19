@@ -1,0 +1,82 @@
+# BASE UI
+ColorColumn: 'darkgray'
+Conceal: 'darkgray'
+Cursor: '- gray'
+CursorIM: '@Cursor'
+CursorColumn: '- darkgray'
+CursorLine: '- darkgray'
+CursorLineNr: 'lightgreen darkgray'
+Directory: 'green - b'
+DiffAdd: '- green'
+DiffChange: '- lightblue'
+DiffDelete: '- red'
+DiffText: 'gray - b'
+ErrorMsg: 'darkred'
+VertSplit: 'dark dark'
+Folded: 'white gray'
+FoldColumn: 'white gray'
+SignColumn: 'black'
+IncSearch: '- darkbeige'
+LineNr: 'gray black'
+MatchParen: '- gray'
+ModeMsg: 'white'
+MoreMsg: 'white'
+NonText: 'darkgray'
+Normal: 'white black'
+PMenu: 'beige darkgray'
+PMenuSel: 'black beige'
+PmenuSbar: '@PMenuSel'
+PmenuThumb: '@PMenuSel'
+Question: 'white'
+Search: 'darkgray beige'
+SpecialKey: 'lightblue'
+SpellBad: '- darkred'
+SpellLocal: '- lightgreen'
+SpellCap: '- lightblue'
+SpellRare: '- green'
+StatusLine: 'black lightgreen'
+StatusLineNC: 'black gray'
+TabLine: 'black gray'
+TabLineFill: 'gray'
+TabLineSel: 'black gray b'
+Title: 'green - b'
+Visual: '- darkbeige'
+VisualNOS: '@Visual'
+WarningMsg: 'darkred'
+WildMenu: '- gray'
+# BASE SYNTAX
+Comment: 'gray'
+Constant: 'red'
+String: 'beige' # Constant
+Character: '' # Constant
+Boolean: '' # Constant
+Number: '' # Constant
+Float: '' # Constant
+Identifier: 'blue'
+Function: 'lightgreen - b' # Identifier
+Statement: 'green'
+Conditional: '' # Statement
+Repeat: '' # Statement
+Label: '' # Statement
+Operator: '' # Statement
+Keyword: '' # Statement
+Exception: '' # Statement
+PreProc: 'lightgreen'
+Include: '' # PreProc
+Define: '' # PreProc
+Macro: '' # PreProc
+PreCondit: '' # PreProc
+Type: 'lightblue'
+StorageClass: '' # Type
+Structure: '' # Type
+Typedef: '' # Type
+Special: 'lightblue'
+SpecialChar: '' # Special
+Tag: '' # Special
+Delimiter: '' # Special
+SpecialComment: '' # Special
+Debug: '' # Special
+Underlined: '- - u'
+Ignore: '@Conceal'
+Error: '- darkred'
+Todo: 'red - b'

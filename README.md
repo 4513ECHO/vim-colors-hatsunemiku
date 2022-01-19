@@ -1,0 +1,3 @@
+# vim-colors-hatsunemiku
+
+README is working in progress...

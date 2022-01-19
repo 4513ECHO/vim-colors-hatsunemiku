@@ -1,0 +1,16 @@
+diffOldFile: '' # diffFile
+diffNewFile: '' # diffFile
+diffFile: '' # Type
+diffOnly: '' # Constant
+diffIdentical: '' # Constant
+diffDiffer: '' # Constant
+diffBDiffer: '' # Constant
+diffIsA: '' # Constant
+diffNoEOL: '' # Constant
+diffCommon: '' # Constant
+diffRemoved: 'red' # Special
+diffChanged: 'lightblue' # PreProc
+diffAdded: 'green' # Identifier
+diffLine: 'lightblue - b' # Statement
+diffSubname: '' # PreProc
+diffComment: '' # Comment
