@@ -19,25 +19,29 @@ Your screenshot is welcome!
 
 ```vim
 if has('termguicolors')
-  " recommend use true colors
+  " Use true colors (recommended)
   set termguicolors
 endif
 syntax enable
 colorscheme hatsunemiku
+" for light theme
+" colorscheme hatsunemiku_light
 ```
 
 Use as [lightline.vim](https://github.com/itchyny/lightline.vim) colorscheme:
 
 ```vim
-let g:lightline = {
-      \ 'colorscheme': 'hatsunemiku',
-      \ }
+let g:lightline = { 'colorscheme': 'hatsunemiku' }
+" for light theme
+" let g:lightline = { 'colorscheme': 'hatsunemiku_light' }
 ```
 
 Use as [vim-airline](https://github.com/vim-airline/vim-airline) theme:
 
 ```vim
 let g:airline_theme = 'hatsunemiku'
+" for light theme
+" let g:airline_theme = 'hatsunemiku_light'
 ```
 
 ## License
