@@ -4,15 +4,15 @@ normal3: 'white darkgray'
 inactive1: 'gray darkgray'
 inactive2: 'gray darkgray'
 inactive3: 'gray darkgray'
-insert1: 'white green b'
+insert1: 'darkgray green b'
 insert2: 'darkgray white'
 insert3: 'white darkgray'
-replace1: 'white red b'
+replace1: 'darkgray red b'
 replace2: 'darkgray white'
 replace3: 'white darkgray'
-visual1: 'darkgray beige b'
+visual1: 'white beige b'
 visual2: 'darkgray white'
 visual3: 'white darkgray'
-ctrlp1: 'white blue b' # optional
+ctrlp1: 'darkgray blue b' # optional
 ctrlp2: 'darkgray white' # optional
 ctrlp3: 'white darkgray' # optional

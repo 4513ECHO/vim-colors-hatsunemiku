@@ -2,7 +2,7 @@
 
 ## Features
 
-- Dark background
+- Dark and light background
 - True colors (24bit-colors) support
 - 256-colors terminal support
 - Terminal window colors support
@@ -10,6 +10,8 @@
   [vim-airline](https://github.com/vim-airline/vim-airline) theme
 
 ## Screenshot
+
+Your screenshot is welcome!
 
 ![screenshot](./img/screenshot.png)
 
