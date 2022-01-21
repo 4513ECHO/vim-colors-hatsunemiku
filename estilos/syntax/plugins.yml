@@ -1,3 +1,7 @@
 # rhysd/clever-f.vim
 CleverFDefaultLabel: 'red - ub'
 
+# hrsh7th/vim-searchx
+SearchxMarker: 'red - ub'
+SearchxMarkerCurrent: 'red - ub'
+
