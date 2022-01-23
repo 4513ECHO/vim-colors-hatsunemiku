@@ -58,21 +58,21 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi DiffText guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi ErrorMsg guifg=#e77a7a ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi VertSplit guifg=#1a1d1f ctermfg=234 guibg=#1a1d1f ctermbg=234 gui=NONE cterm=NONE
-  hi Folded guifg=#d9d9d9 ctermfg=253 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
-  hi FoldColumn guifg=#d9d9d9 ctermfg=253 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
+  hi Folded guifg=#dcd7d7 ctermfg=188 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
+  hi FoldColumn guifg=#dcd7d7 ctermfg=188 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi SignColumn guifg=#242829 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi IncSearch guifg=NONE ctermfg=NONE guibg=#4d4d43 ctermbg=239 gui=NONE cterm=NONE
   hi LineNr guifg=#7b8b99 ctermfg=245 guibg=#242829 ctermbg=235 gui=NONE cterm=NONE
   hi MatchParen guifg=NONE ctermfg=NONE guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
-  hi ModeMsg guifg=#d9d9d9 ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi MoreMsg guifg=#d9d9d9 ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi ModeMsg guifg=#dcd7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi MoreMsg guifg=#dcd7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NonText guifg=#4a4b4b ctermfg=239 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Normal guifg=#d9d9d9 ctermfg=253 guibg=#242829 ctermbg=235 gui=NONE cterm=NONE
+  hi Normal guifg=#dcd7d7 ctermfg=188 guibg=#242829 ctermbg=235 gui=NONE cterm=NONE
   hi PMenu guifg=#fcfcdf ctermfg=230 guibg=#4a4b4b ctermbg=239 gui=NONE cterm=NONE
   hi PMenuSel guifg=#242829 ctermfg=235 guibg=#fcfcdf ctermbg=230 gui=NONE cterm=NONE
   hi link PmenuSbar PMenuSel
   hi link PmenuThumb PMenuSel
-  hi Question guifg=#d9d9d9 ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Question guifg=#dcd7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Search guifg=#4a4b4b ctermfg=239 guibg=#fcfcdf ctermbg=230 gui=NONE cterm=NONE
   hi SpecialKey guifg=#7cc7d6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SpellBad guifg=NONE ctermfg=NONE guibg=#e77a7a ctermbg=174 gui=NONE cterm=NONE
@@ -120,13 +120,13 @@ if has('terminal')
   \ "#1a86b9",
   \ "#bc7fd2",
   \ "#7cc7d6",
-  \ "#d9d9d9"
+  \ "#dcd7d7"
   \ ]
 endif
 
 if has('nvim')
   let g:terminal_color_foreground = "#242829"
-  let g:terminal_color_background = "#d9d9d9"
+  let g:terminal_color_background = "#dcd7d7"
   let g:terminal_color_0 = "#242829"
   let g:terminal_color_1 = "#df2683"
   let g:terminal_color_2 = "#13868c"
@@ -142,5 +142,5 @@ if has('nvim')
   let g:terminal_color_12 = "#1a86b9"
   let g:terminal_color_13 = "#bc7fd2"
   let g:terminal_color_14 = "#7cc7d6"
-  let g:terminal_color_15 = "#d9d9d9"
+  let g:terminal_color_15 = "#dcd7d7"
 endif

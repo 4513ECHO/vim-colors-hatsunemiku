@@ -60,16 +60,16 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi VertSplit guifg=#1a1d1f ctermfg=234 guibg=#1a1d1f ctermbg=234 gui=NONE cterm=NONE
   hi Folded guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi FoldColumn guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
-  hi SignColumn guifg=#d9d9d9 ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi SignColumn guifg=#f1efef ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi IncSearch guifg=NONE ctermfg=NONE guibg=#fcfcdf ctermbg=230 gui=NONE cterm=NONE
-  hi LineNr guifg=#7b8b99 ctermfg=245 guibg=#d9d9d9 ctermbg=253 gui=NONE cterm=NONE
+  hi LineNr guifg=#7b8b99 ctermfg=245 guibg=#f1efef ctermbg=255 gui=NONE cterm=NONE
   hi MatchParen guifg=NONE ctermfg=NONE guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi ModeMsg guifg=#242829 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi MoreMsg guifg=#242829 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NonText guifg=#ced1d1 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Normal guifg=#242829 ctermfg=235 guibg=#d9d9d9 ctermbg=253 gui=NONE cterm=NONE
+  hi Normal guifg=#242829 ctermfg=235 guibg=#f1efef ctermbg=255 gui=NONE cterm=NONE
   hi PMenu guifg=#9f9f8a ctermfg=247 guibg=#ced1d1 ctermbg=252 gui=NONE cterm=NONE
-  hi PMenuSel guifg=#d9d9d9 ctermfg=253 guibg=#9f9f8a ctermbg=247 gui=NONE cterm=NONE
+  hi PMenuSel guifg=#f1efef ctermfg=255 guibg=#9f9f8a ctermbg=247 gui=NONE cterm=NONE
   hi link PmenuSbar PMenuSel
   hi link PmenuThumb PMenuSel
   hi Question guifg=#242829 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -79,11 +79,11 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi SpellLocal guifg=NONE ctermfg=NONE guibg=#74bfbf ctermbg=109 gui=NONE cterm=NONE
   hi SpellCap guifg=NONE ctermfg=NONE guibg=#74b3bf ctermbg=109 gui=NONE cterm=NONE
   hi SpellRare guifg=NONE ctermfg=NONE guibg=#13868c ctermbg=30 gui=NONE cterm=NONE
-  hi StatusLine guifg=#d9d9d9 ctermfg=253 guibg=#74bfbf ctermbg=109 gui=NONE cterm=NONE
-  hi StatusLineNC guifg=#d9d9d9 ctermfg=253 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
-  hi TabLine guifg=#d9d9d9 ctermfg=253 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
+  hi StatusLine guifg=#f1efef ctermfg=255 guibg=#74bfbf ctermbg=109 gui=NONE cterm=NONE
+  hi StatusLineNC guifg=#f1efef ctermfg=255 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
+  hi TabLine guifg=#f1efef ctermfg=255 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi TabLineFill guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi TabLineSel guifg=#d9d9d9 ctermfg=253 guibg=#7b8b99 ctermbg=245 gui=Bold cterm=Bold
+  hi TabLineSel guifg=#f1efef ctermfg=255 guibg=#7b8b99 ctermbg=245 gui=Bold cterm=Bold
   hi Title guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi Visual guifg=NONE ctermfg=NONE guibg=#fcfcdf ctermbg=230 gui=NONE cterm=NONE
   hi link VisualNOS Visual
@@ -105,7 +105,7 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
 
 if has('terminal')
   let g:terminal_ansi_colors = [
-  \ "#d9d9d9",
+  \ "#f1efef",
   \ "#df2683",
   \ "#13868c",
   \ "#9f9f8a",
@@ -125,9 +125,9 @@ if has('terminal')
 endif
 
 if has('nvim')
-  let g:terminal_color_foreground = "#d9d9d9"
+  let g:terminal_color_foreground = "#f1efef"
   let g:terminal_color_background = "#242829"
-  let g:terminal_color_0 = "#d9d9d9"
+  let g:terminal_color_0 = "#f1efef"
   let g:terminal_color_1 = "#df2683"
   let g:terminal_color_2 = "#13868c"
   let g:terminal_color_3 = "#9f9f8a"
