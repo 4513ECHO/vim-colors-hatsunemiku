@@ -44,11 +44,11 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi diffChanged guifg=#74b3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffAdded guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffLine guifg=#74b3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-  hi ColorColumn guifg=#ced1d1 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi ColorColumn guifg=#7b8b99 ctermfg=245 guibg=#ced1d1 ctermbg=252 gui=Bold cterm=Bold
   hi Conceal guifg=#ced1d1 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Cursor guifg=NONE ctermfg=NONE guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi link CursorIM Cursor
-  hi CursorColumn guifg=NONE ctermfg=NONE guibg=#ced1d1 ctermbg=252 gui=NONE cterm=NONE
+  hi link CursorColumn CursorLine
   hi CursorLine guifg=NONE ctermfg=NONE guibg=#ced1d1 ctermbg=252 gui=NONE cterm=NONE
   hi CursorLineNr guifg=#74bfbf ctermfg=109 guibg=#ced1d1 ctermbg=252 gui=NONE cterm=NONE
   hi Directory guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
@@ -60,7 +60,7 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi VertSplit guifg=#1a1d1f ctermfg=234 guibg=#1a1d1f ctermbg=234 gui=NONE cterm=NONE
   hi Folded guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi FoldColumn guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
-  hi SignColumn guifg=#f1efef ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi SignColumn guifg=#242829 ctermfg=235 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi IncSearch guifg=NONE ctermfg=NONE guibg=#fcfcdf ctermbg=230 gui=NONE cterm=NONE
   hi LineNr guifg=#7b8b99 ctermfg=245 guibg=#f1efef ctermbg=255 gui=NONE cterm=NONE
   hi MatchParen guifg=NONE ctermfg=NONE guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE

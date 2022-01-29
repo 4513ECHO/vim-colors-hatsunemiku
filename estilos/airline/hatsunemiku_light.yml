@@ -10,7 +10,7 @@ insert3: 'white darkgray'
 replace1: 'darkgray red b'
 replace2: 'darkgray white'
 replace3: 'white darkgray'
-visual1: 'white beige b'
+visual1: 'white darkbeige b'
 visual2: 'darkgray white'
 visual3: 'white darkgray'
 ctrlp1: 'darkgray blue b' # optional
