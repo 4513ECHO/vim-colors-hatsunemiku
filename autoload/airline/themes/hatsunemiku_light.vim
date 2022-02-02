@@ -23,7 +23,7 @@ let s:replace2 = [ "#ced1d1", "#242829", 252, 235 ]
 let s:replace3 = [ "#242829", "#ced1d1", 235, 252 ]
 let g:airline#themes#hatsunemiku_light#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
-let s:visual1 = [ "#242829", "#9f9f8a", 235, 247 ]
+let s:visual1 = [ "#242829", "#fcfcdf", 235, 230 ]
 let s:visual2 = [ "#ced1d1", "#242829", 252, 235 ]
 let s:visual3 = [ "#242829", "#ced1d1", 235, 252 ]
 let g:airline#themes#hatsunemiku_light#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
