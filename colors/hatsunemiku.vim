@@ -103,6 +103,7 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi link Ignore Conceal
   hi Error guifg=NONE ctermfg=NONE guibg=#e77a7a ctermbg=174 gui=NONE cterm=NONE
   hi Todo guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+  hi vimSetSep guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 if has('terminal')
   let g:terminal_ansi_colors = [
