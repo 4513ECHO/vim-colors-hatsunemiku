@@ -26,6 +26,7 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi CleverFDefaultLabel guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
   hi SearchxMarker guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
   hi SearchxMarkerCurrent guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
+  hi QuickFixLine guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi jsonQuote guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi typescriptDotNotation guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi typescriptGlobalArrayDot guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -76,10 +77,10 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi Question guifg=#dcd7d7 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Search guifg=#4a4b4b ctermfg=239 guibg=#fcfcdf ctermbg=230 gui=NONE cterm=NONE
   hi SpecialKey guifg=#7cc7d6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi SpellBad guifg=NONE ctermfg=NONE guibg=#e77a7a ctermbg=174 gui=NONE cterm=NONE
-  hi SpellLocal guifg=NONE ctermfg=NONE guibg=#72d5d2 ctermbg=80 gui=NONE cterm=NONE
-  hi SpellCap guifg=NONE ctermfg=NONE guibg=#7cc7d6 ctermbg=116 gui=NONE cterm=NONE
-  hi SpellRare guifg=NONE ctermfg=NONE guibg=#13868c ctermbg=30 gui=NONE cterm=NONE
+  hi SpellBad guifg=#e77a7a ctermfg=174 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+  hi SpellLocal guifg=#72d5d2 ctermfg=80 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+  hi SpellCap guifg=#7cc7d6 ctermfg=116 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+  hi SpellRare guifg=#72d5d2 ctermfg=80 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi StatusLine guifg=#242829 ctermfg=235 guibg=#72d5d2 ctermbg=80 gui=NONE cterm=NONE
   hi StatusLineNC guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi TabLine guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
@@ -101,7 +102,7 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi Special guifg=#7cc7d6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi link Ignore Conceal
-  hi Error guifg=NONE ctermfg=NONE guibg=#e77a7a ctermbg=174 gui=NONE cterm=NONE
+  hi Error guifg=#e77a7a ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Todo guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi vimSetSep guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
