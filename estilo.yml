@@ -1,27 +1,27 @@
-name: 'hatsunemiku'
-version: '1.0.0'
-license: 'MIT'
-author: 'Hibiki'
-url: 'https://github.com/4513ECHO/vim-colors-hatsunemiku'
-description: '💚 A vim colorscheme like Hatsune Miku. Hatsune Miku makes vimmers happy!'
+name: hatsunemiku
+version: 1.0.0
+license: MIT
+author: Hibiki
+url: https://github.com/4513ECHO/vim-colors-hatsunemiku
+description: '💚 A vim colorscheme like "初音ミク" (Hatsune Miku). Miku makes vimmers happy!'
 colorschemes:
-- name: 'hatsunemiku'
-  background: 'dark'
-  palette: 'hatsunemiku'
-- name: 'hatsunemiku_light'
-  background: 'light'
-  palette: 'hatsunemiku_light'
+- name: hatsunemiku
+  background: dark
+  palette: hatsunemiku
+- name: hatsunemiku_light
+  background: light
+  palette: hatsunemiku_light
 lightline:
-  - name: 'hatsunemiku'
-    palette: 'hatsunemiku'
-    style: 'hatsunemiku'
-  - name: 'hatsunemiku_light'
-    palette: 'hatsunemiku_light'
-    style: 'hatsunemiku_light'
+  - name: hatsunemiku
+    palette: hatsunemiku
+    style: hatsunemiku
+  - name: hatsunemiku_light
+    palette: hatsunemiku_light
+    style: hatsunemiku_light
 airline:
-  - name: 'hatsunemiku'
-    palette: 'hatsunemiku'
-    style: 'hatsunemiku'
-  - name: 'hatsunemiku_light'
-    palette: 'hatsunemiku_light'
-    style: 'hatsunemiku_light'
+  - name: hatsunemiku
+    palette: hatsunemiku
+    style: hatsunemiku
+  - name: hatsunemiku_light
+    palette: hatsunemiku_light
+    style: hatsunemiku_light

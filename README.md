@@ -8,12 +8,17 @@
 - Terminal window colors support
 - [lightline.vim](https://github.com/itchyny/lightline.vim) colorscheme and
   [vim-airline](https://github.com/vim-airline/vim-airline) theme
+- Specific support for some plugins
+  - [rhysd/clever-f.vim](https://github.com/rhysd/clever-f.vim)
+  - [hrsh7th/vim-searchx](https://github.com/hrsh7th/vim-searchx)
+  - [... or what you want](https://github.com/4513ECHO/vim-colors-hatsunemiku/issues)
 
 ## Screenshot
 
+Please see [this issue](https://github.com/4513ECHO/vim-colors-hatsunemiku/issues/1) to find more screenshots.
 Your screenshot is welcome!
 
-![screenshot](./img/screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/81011153/159166785-ad4a93f9-f7a7-41a2-9755-37807acb341c.jpeg)
 
 ## Usage
 
