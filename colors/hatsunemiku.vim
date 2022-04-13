@@ -26,6 +26,12 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi CleverFDefaultLabel guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
   hi SearchxMarker guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
   hi SearchxMarkerCurrent guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
+  hi GitGutterAdd guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi GitGutterChange guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi GitGutterDelete guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi SignifySignAdd guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi SignifySignChange guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi SignifySignDelete guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi QuickFixLine guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi jsonQuote guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi typescriptDotNotation guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -43,7 +49,7 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi typescriptObjectColon guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi typescriptTypeAnnotation guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffRemoved guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi diffChanged guifg=#7cc7d6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi diffChanged guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffAdded guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffLine guifg=#7cc7d6 ctermfg=116 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi ColorColumn guifg=#7b8b99 ctermfg=245 guibg=#4a4b4b ctermbg=239 gui=Bold cterm=Bold
@@ -55,9 +61,9 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi CursorLineNr guifg=#72d5d2 ctermfg=80 guibg=#4a4b4b ctermbg=239 gui=NONE cterm=NONE
   hi Directory guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi DiffAdd guifg=NONE ctermfg=NONE guibg=#13868c ctermbg=30 gui=NONE cterm=NONE
-  hi DiffChange guifg=NONE ctermfg=NONE guibg=#7cc7d6 ctermbg=116 gui=NONE cterm=NONE
+  hi DiffChange guifg=NONE ctermfg=NONE guibg=#fcfcdf ctermbg=230 gui=NONE cterm=NONE
   hi DiffDelete guifg=NONE ctermfg=NONE guibg=#df2683 ctermbg=162 gui=NONE cterm=NONE
-  hi DiffText guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+  hi DiffText guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi ErrorMsg guifg=#e77a7a ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi VertSplit guifg=#1a1d1f ctermfg=234 guibg=#1a1d1f ctermbg=234 gui=NONE cterm=NONE
   hi Folded guifg=#dcd7d7 ctermfg=188 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE

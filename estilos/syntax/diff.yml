@@ -9,7 +9,7 @@ diffIsA: '' # Constant
 diffNoEOL: '' # Constant
 diffCommon: '' # Constant
 diffRemoved: 'red' # Special
-diffChanged: 'lightblue' # PreProc
+diffChanged: 'beige' # PreProc
 diffAdded: 'green' # Identifier
 diffLine: 'lightblue - b' # Statement
 diffSubname: '' # PreProc

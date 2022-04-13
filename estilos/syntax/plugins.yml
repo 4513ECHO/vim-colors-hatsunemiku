@@ -5,3 +5,12 @@ CleverFDefaultLabel: 'red - ub'
 SearchxMarker: 'red - ub'
 SearchxMarkerCurrent: 'red - ub'
 
+# airblade/vim-gitgutter
+GitGutterAdd: 'red'
+GitGutterChange: 'beige'
+GitGutterDelete: 'red'
+
+# mhinz/vim-signify
+SignifySignAdd: 'green'
+SignifySignChange: 'beige'
+SignifySignDelete: 'red'
