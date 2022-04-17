@@ -64,7 +64,7 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi DiffChange guifg=NONE ctermfg=NONE guibg=#9f9f8a ctermbg=247 gui=NONE cterm=NONE
   hi DiffDelete guifg=NONE ctermfg=NONE guibg=#df2683 ctermbg=162 gui=NONE cterm=NONE
   hi DiffText guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-  hi ErrorMsg guifg=#e77a7a ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi ErrorMsg guifg=#a365ba ctermfg=133 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi VertSplit guifg=#1a1d1f ctermfg=234 guibg=#1a1d1f ctermbg=234 gui=NONE cterm=NONE
   hi Folded guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi FoldColumn guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
@@ -83,7 +83,7 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi Question guifg=#242829 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Search guifg=#ced1d1 ctermfg=252 guibg=#9f9f8a ctermbg=247 gui=NONE cterm=NONE
   hi SpecialKey guifg=#74b3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi SpellBad guifg=#e77a7a ctermfg=174 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+  hi SpellBad guifg=#a365ba ctermfg=133 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi SpellLocal guifg=#74bfbf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi SpellCap guifg=#74b3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi SpellRare guifg=#74bfbf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -95,7 +95,7 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi Title guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi Visual guifg=NONE ctermfg=NONE guibg=#fcfcdf ctermbg=230 gui=NONE cterm=NONE
   hi link VisualNOS Visual
-  hi WarningMsg guifg=#e77a7a ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi WarningMsg guifg=#a365ba ctermfg=133 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi WildMenu guifg=NONE ctermfg=NONE guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi Comment guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -108,7 +108,7 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi Special guifg=#74b3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi link Ignore Conceal
-  hi Error guifg=#e77a7a ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Error guifg=#a365ba ctermfg=133 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Todo guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi vimSetSep guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
@@ -119,7 +119,7 @@ if has('terminal')
   \ "#13868c",
   \ "#9f9f8a",
   \ "#1a86b9",
-  \ "#bc7fd2",
+  \ "#a365ba",
   \ "#74b3bf",
   \ "#ced1d1",
   \ "#7b8b99",
@@ -127,7 +127,7 @@ if has('terminal')
   \ "#13868c",
   \ "#9f9f8a",
   \ "#1a86b9",
-  \ "#bc7fd2",
+  \ "#a365ba",
   \ "#74b3bf",
   \ "#242829"
   \ ]
@@ -141,7 +141,7 @@ if has('nvim')
   let g:terminal_color_2 = "#13868c"
   let g:terminal_color_3 = "#9f9f8a"
   let g:terminal_color_4 = "#1a86b9"
-  let g:terminal_color_5 = "#bc7fd2"
+  let g:terminal_color_5 = "#a365ba"
   let g:terminal_color_6 = "#74b3bf"
   let g:terminal_color_7 = "#ced1d1"
   let g:terminal_color_8 = "#7b8b99"
@@ -149,7 +149,7 @@ if has('nvim')
   let g:terminal_color_10 = "#13868c"
   let g:terminal_color_11 = "#9f9f8a"
   let g:terminal_color_12 = "#1a86b9"
-  let g:terminal_color_13 = "#bc7fd2"
+  let g:terminal_color_13 = "#a365ba"
   let g:terminal_color_14 = "#74b3bf"
   let g:terminal_color_15 = "#242829"
 endif
