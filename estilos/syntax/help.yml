@@ -1,0 +1,16 @@
+helpIgnore: '' # Ignore
+helpHyperTextJump: '' # Identifier
+helpBar: '' # Ignore
+helpBacktick: '' # Ignore
+helpStar: '' # Ignore
+helpHyperTextEntry: 'lightgreen' # String
+helpHeadline: 'green - b' # Statement
+helpHeader: '@Comment' # PreProc
+helpSectionDelim: '@Comment' # PreProc
+helpVim: '' # Identifier
+helpCommand: '' # Comment
+helpExample: '' # Comment
+helpOption: '' # Type
+helpSpecial: '' # Special
+helpNote: '' # Todo
+helpURL: '@Underlined' # String

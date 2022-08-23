@@ -76,7 +76,7 @@ Tag: '' # Special
 Delimiter: '' # Special
 SpecialComment: '' # Special
 Debug: '' # Special
-Underlined: '- - u'
+Underlined: 'lightblue - u'
 Ignore: '@Conceal'
 Error: 'magenta'
 Todo: 'red - b'
