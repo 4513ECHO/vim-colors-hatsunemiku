@@ -92,8 +92,8 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi SpellLocal guifg=#72d5d2 ctermfg=80 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi SpellCap guifg=#7cc7d6 ctermfg=116 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi SpellRare guifg=#72d5d2 ctermfg=80 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-  hi StatusLine guifg=#242829 ctermfg=235 guibg=#72d5d2 ctermbg=80 gui=NONE cterm=NONE
-  hi StatusLineNC guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
+  hi StatusLine guifg=#dcd7d7 ctermfg=188 guibg=#4a4b4b ctermbg=239 gui=NONE cterm=NONE
+  hi StatusLineNC guifg=#242829 ctermfg=235 guibg=#4a4b4b ctermbg=239 gui=NONE cterm=NONE
   hi TabLine guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi TabLineFill guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi TabLineSel guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=Bold cterm=Bold
