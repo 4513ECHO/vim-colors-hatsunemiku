@@ -32,6 +32,10 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi SignifySignAdd guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SignifySignChange guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SignifySignDelete guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi CocErrorSign guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi CocWarnSign guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi CocInfoSign guifg=#74b3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi CocHintSign guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi QuickFixLine guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi jsonQuote guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi helpHyperTextEntry guifg=#74bfbf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
