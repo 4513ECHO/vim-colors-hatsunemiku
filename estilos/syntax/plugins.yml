@@ -6,7 +6,7 @@ SearchxMarker: 'red - ub'
 SearchxMarkerCurrent: 'red - ub'
 
 # airblade/vim-gitgutter
-GitGutterAdd: 'red'
+GitGutterAdd: 'green'
 GitGutterChange: 'beige'
 GitGutterDelete: 'red'
 
@@ -21,4 +21,3 @@ CocDisabled: 'gray'
 CocSearch: '@Search'
 CocMarkdownLink: '@Underlined'
 CocPumVirtualText: 'gray'
-CocErrorFloat: '@DiagnosticFloatingError'
