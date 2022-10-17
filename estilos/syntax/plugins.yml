@@ -14,9 +14,3 @@ GitGutterDelete: 'red'
 SignifySignAdd: 'green'
 SignifySignChange: 'beige'
 SignifySignDelete: 'red'
-
-# neoclide/coc.nvim
-CocErrorSign: 'red'
-CocWarnSign: 'beige'
-CocInfoSign: 'lightblue'
-CocHintSign: 'gray'

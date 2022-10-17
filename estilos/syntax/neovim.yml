@@ -1,0 +1,7 @@
+healthError: 'red - b'
+healthSuccess: 'lightgreen - b'
+healthWarning: 'beige - b'
+DiagnosticError: 'red'
+DiagnosticWarn: 'beige - b'
+DiagnosticInfo: 'lightgreen'
+DiagnosticHint: 'lightblue'
