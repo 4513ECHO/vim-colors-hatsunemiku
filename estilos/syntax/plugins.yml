@@ -14,3 +14,9 @@ GitGutterDelete: 'red'
 SignifySignAdd: 'green'
 SignifySignChange: 'beige'
 SignifySignDelete: 'red'
+
+# neoclide/coc.nvim
+CocCodeLens: 'gray'
+CocDisabled: 'gray'
+CocSearch: '@Search'
+CocMarkdownLink: '@Underlined'
