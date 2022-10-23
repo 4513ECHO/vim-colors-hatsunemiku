@@ -6,7 +6,7 @@ SearchxMarker: 'red - ub'
 SearchxMarkerCurrent: 'red - ub'
 
 # airblade/vim-gitgutter
-GitGutterAdd: 'red'
+GitGutterAdd: 'green'
 GitGutterChange: 'beige'
 GitGutterDelete: 'red'
 
@@ -14,3 +14,14 @@ GitGutterDelete: 'red'
 SignifySignAdd: 'green'
 SignifySignChange: 'beige'
 SignifySignDelete: 'red'
+
+# neoclide/coc.nvim
+CocCodeLens: 'gray'
+CocDisabled: 'gray'
+CocFadeOut: 'gray'
+CocSearch: '@Search'
+CocMarkdownLink: '@Underlined'
+CocFloating: '@Pmenu'
+CocMenuSel: '@PmenuSel'
+CocFloatThumb: '@PmenuThumb'
+CocFloatSbar: '@PmenuSbar'

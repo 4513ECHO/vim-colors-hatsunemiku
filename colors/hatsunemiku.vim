@@ -26,12 +26,21 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi CleverFDefaultLabel guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
   hi SearchxMarker guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
   hi SearchxMarkerCurrent guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
-  hi GitGutterAdd guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi GitGutterAdd guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi GitGutterChange guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi GitGutterDelete guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SignifySignAdd guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SignifySignChange guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SignifySignDelete guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi CocCodeLens guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi CocDisabled guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi CocFadeOut guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link CocSearch Search
+  hi link CocMarkdownLink Underlined
+  hi link CocFloating Pmenu
+  hi link CocMenuSel PmenuSel
+  hi link CocFloatThumb PmenuThumb
+  hi link CocFloatSbar PmenuSbar
   hi QuickFixLine guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi jsonQuote guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi helpHyperTextEntry guifg=#72d5d2 ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -39,6 +48,18 @@ let g:hatsunemiku_bold = get(g:, '_bold', 0)
   hi link helpHeader Comment
   hi link helpSectionDelim Comment
   hi link helpURL Underlined
+  hi healthError guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+  hi healthSuccess guifg=#72d5d2 ctermfg=80 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+  hi healthWarning guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+  hi DiagnosticError guifg=#bc7fd2 ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticWarn guifg=#fcfcdf ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticInfo guifg=#7cc7d6 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticHint guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticSignError guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#df2683
+  hi DiagnosticUnderlineWarn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#fcfcdf
+  hi DiagnosticUnderlineInfo guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#7cc7d6
+  hi DiagnosticUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#7b8b99
   hi typescriptDotNotation guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi typescriptGlobalArrayDot guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi typescriptGlobalDateDot guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
