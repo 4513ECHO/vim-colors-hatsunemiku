@@ -24,11 +24,13 @@
 - Terminal window (`:terminal`) colors support
 - [lightline.vim](https://github.com/itchyny/lightline.vim) colorscheme and
   [vim-airline](https://github.com/vim-airline/vim-airline) theme
+- Neovim built-in LSP support
 - Specific support for some plugins
   - [rhysd/clever-f.vim](https://github.com/rhysd/clever-f.vim)
   - [hrsh7th/vim-searchx](https://github.com/hrsh7th/vim-searchx)
   - [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
   - [mhinz/vim-signify](https://github.com/mhinz/vim-signify)
+  - [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
   - [... or what you want](https://github.com/4513ECHO/vim-colors-hatsunemiku/issues)
 
 ## Environmental Requirements
