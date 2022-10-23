@@ -27,10 +27,10 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi SearchxMarker guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
   hi SearchxMarkerCurrent guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
   hi GitGutterAdd guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi GitGutterChange guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi GitGutterChange guifg=#dad085 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi GitGutterDelete guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SignifySignAdd guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi SignifySignChange guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi SignifySignChange guifg=#dad085 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SignifySignDelete guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi CocCodeLens guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi CocDisabled guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -41,7 +41,7 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi link CocMenuSel PmenuSel
   hi link CocFloatThumb PmenuThumb
   hi link CocFloatSbar PmenuSbar
-  hi QuickFixLine guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+  hi QuickFixLine guifg=#dad085 ctermfg=186 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi jsonQuote guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi helpHyperTextEntry guifg=#74bfbf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi helpHeadline guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
@@ -50,14 +50,14 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi link helpURL Underlined
   hi healthError guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi healthSuccess guifg=#74bfbf ctermfg=109 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-  hi healthWarning guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+  hi healthWarning guifg=#dad085 ctermfg=186 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi DiagnosticError guifg=#a365ba ctermfg=133 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi DiagnosticWarn guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticWarn guifg=#dad085 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticInfo guifg=#74b3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticHint guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticSignError guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#df2683
-  hi DiagnosticUnderlineWarn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#9f9f8a
+  hi DiagnosticUnderlineWarn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#dad085
   hi DiagnosticUnderlineInfo guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#74b3bf
   hi DiagnosticUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#7b8b99
   hi typescriptDotNotation guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -75,7 +75,7 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi typescriptObjectColon guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi typescriptTypeAnnotation guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffRemoved guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi diffChanged guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi diffChanged guifg=#dad085 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffAdded guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi diffLine guifg=#74b3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi ColorColumn guifg=#7b8b99 ctermfg=245 guibg=#ced1d1 ctermbg=252 gui=Bold cterm=Bold
@@ -87,9 +87,9 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi CursorLineNr guifg=#74bfbf ctermfg=109 guibg=#ced1d1 ctermbg=252 gui=NONE cterm=NONE
   hi Directory guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi DiffAdd guifg=NONE ctermfg=NONE guibg=#13868c ctermbg=30 gui=NONE cterm=NONE
-  hi DiffChange guifg=NONE ctermfg=NONE guibg=#9f9f8a ctermbg=247 gui=NONE cterm=NONE
+  hi DiffChange guifg=NONE ctermfg=NONE guibg=#dad085 ctermbg=186 gui=NONE cterm=NONE
   hi DiffDelete guifg=NONE ctermfg=NONE guibg=#df2683 ctermbg=162 gui=NONE cterm=NONE
-  hi DiffText guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+  hi DiffText guifg=#dad085 ctermfg=186 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi ErrorMsg guifg=#a365ba ctermfg=133 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi VertSplit guifg=#1a1d1f ctermfg=234 guibg=#1a1d1f ctermbg=234 gui=NONE cterm=NONE
   hi Folded guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
@@ -102,12 +102,12 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi MoreMsg guifg=#242829 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NonText guifg=#ced1d1 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Normal guifg=#242829 ctermfg=235 guibg=#f1efef ctermbg=255 gui=NONE cterm=NONE
-  hi PMenu guifg=#9f9f8a ctermfg=247 guibg=#ced1d1 ctermbg=252 gui=NONE cterm=NONE
-  hi PMenuSel guifg=#f1efef ctermfg=255 guibg=#9f9f8a ctermbg=247 gui=NONE cterm=NONE
+  hi PMenu guifg=#dad085 ctermfg=186 guibg=#ced1d1 ctermbg=252 gui=NONE cterm=NONE
+  hi PMenuSel guifg=#f1efef ctermfg=255 guibg=#dad085 ctermbg=186 gui=NONE cterm=NONE
   hi link PmenuSbar PMenuSel
   hi link PmenuThumb PMenuSel
   hi Question guifg=#242829 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Search guifg=#ced1d1 ctermfg=252 guibg=#9f9f8a ctermbg=247 gui=NONE cterm=NONE
+  hi Search guifg=#ced1d1 ctermfg=252 guibg=#dad085 ctermbg=186 gui=NONE cterm=NONE
   hi SpecialKey guifg=#74b3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SpellBad guifg=#a365ba ctermfg=133 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi SpellLocal guifg=#74bfbf ctermfg=109 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -125,7 +125,7 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi WildMenu guifg=NONE ctermfg=NONE guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
   hi Comment guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi String guifg=#9f9f8a ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi String guifg=#dad085 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Identifier guifg=#1a86b9 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Function guifg=#74bfbf ctermfg=109 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi Statement guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -143,7 +143,7 @@ if has('terminal')
   \ "#f1efef",
   \ "#df2683",
   \ "#13868c",
-  \ "#9f9f8a",
+  \ "#dad085",
   \ "#1a86b9",
   \ "#a365ba",
   \ "#74b3bf",
@@ -151,7 +151,7 @@ if has('terminal')
   \ "#7b8b99",
   \ "#df2683",
   \ "#13868c",
-  \ "#9f9f8a",
+  \ "#dad085",
   \ "#1a86b9",
   \ "#a365ba",
   \ "#74b3bf",
@@ -165,7 +165,7 @@ if has('nvim')
   let g:terminal_color_0 = "#f1efef"
   let g:terminal_color_1 = "#df2683"
   let g:terminal_color_2 = "#13868c"
-  let g:terminal_color_3 = "#9f9f8a"
+  let g:terminal_color_3 = "#dad085"
   let g:terminal_color_4 = "#1a86b9"
   let g:terminal_color_5 = "#a365ba"
   let g:terminal_color_6 = "#74b3bf"
@@ -173,7 +173,7 @@ if has('nvim')
   let g:terminal_color_8 = "#7b8b99"
   let g:terminal_color_9 = "#df2683"
   let g:terminal_color_10 = "#13868c"
-  let g:terminal_color_11 = "#9f9f8a"
+  let g:terminal_color_11 = "#dad085"
   let g:terminal_color_12 = "#1a86b9"
   let g:terminal_color_13 = "#a365ba"
   let g:terminal_color_14 = "#74b3bf"
