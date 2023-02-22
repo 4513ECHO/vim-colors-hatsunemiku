@@ -86,10 +86,10 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi CursorLine guifg=NONE ctermfg=NONE guibg=#ced1d1 ctermbg=252 gui=NONE cterm=NONE
   hi CursorLineNr guifg=#74bfbf ctermfg=109 guibg=#ced1d1 ctermbg=252 gui=NONE cterm=NONE
   hi Directory guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-  hi DiffAdd guifg=NONE ctermfg=NONE guibg=#13868c ctermbg=30 gui=NONE cterm=NONE
-  hi DiffChange guifg=NONE ctermfg=NONE guibg=#dad085 ctermbg=186 gui=NONE cterm=NONE
-  hi DiffDelete guifg=NONE ctermfg=NONE guibg=#df2683 ctermbg=162 gui=NONE cterm=NONE
-  hi DiffText guifg=#dad085 ctermfg=186 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+  hi DiffAdd guifg=#13868c ctermfg=30 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiffChange guifg=#dad085 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiffDelete guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+  hi DiffText guifg=#242829 ctermfg=235 guibg=#fcfcdf ctermbg=230 gui=NONE cterm=NONE
   hi ErrorMsg guifg=#a365ba ctermfg=133 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi VertSplit guifg=#1a1d1f ctermfg=234 guibg=#1a1d1f ctermbg=234 gui=NONE cterm=NONE
   hi Folded guifg=#242829 ctermfg=235 guibg=#7b8b99 ctermbg=245 gui=NONE cterm=NONE
