@@ -1,5 +1,6 @@
 ""
-" Airline_theme: hatsunemiku_light
+" Airline_theme: hatsunemiku_light v1.0.0
+"
 
 " URL: https://github.com/4513ECHO/vim-colors-hatsunemiku
 " Author: Hibiki

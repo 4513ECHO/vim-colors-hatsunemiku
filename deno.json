@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "render": "deno run --allow-write=. --allow-read=. jsr:@jacoborus/estilo render"
+  }
+}
